@@ -1,7 +1,7 @@
 {
-  "name": "minwiz",
-  "version": "1.0.0",
-  "description": "MinWiz - Minimal starter kit for under 2 KB sites",
+  "name": "soarswebsite",
+  "version": "0.1.0",
+  "description": "SOARS - Minimalist Website",
   "scripts": {
     "lint": "eslint . --ignore-path ./.gitignore",
     "build": "gulp",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zeplia/minwiz.git"
+    "url": "git+https://github.com/soa-rs/website.git"
   },
-  "author": "Zeplia",
+  "author": "soa-rs",
   "license": "BSD-2-Clause",
   "bugs": {
-    "url": "https://github.com/zeplia/minwiz/issues"
+    "url": "https://github.com/soa-rs/website/issues"
   },
-  "homepage": "https://github.com/zeplia/minwiz#readme",
+  "homepage": "https://github.com/soa-rs/website#readme",
   "devDependencies": {
     "del": "^6.0.0",
     "eslint": "^8.57.0",
