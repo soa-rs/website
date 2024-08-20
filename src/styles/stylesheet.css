@@ -1,5 +1,4 @@
 * {
-  margin: 0;
   --tc: #111;
   --bc: #fff;
   --hc: #273;
@@ -11,10 +10,22 @@
     --bc: #111;
     --hc: #fb0;
   }
+
+  #logo {
+    filter: invert(1);
+  }
+
+  #footer-logo {
+    filter: invert(1);
+  }
+}
+
+html {
+  height: 100%;
 }
 
 body {
-  font: 18px -apple-system, BlinkMacSystemFont, sans-serif;
+  font: 1.125em -apple-system, BlinkMacSystemFont, sans-serif;
   line-height: 1.4;
   color: var(--tc);
   background: var(--bc);
@@ -22,10 +33,15 @@ body {
   margin: 0 auto;
   padding: 0 0.7em;
   text-align: justify;
+  height: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 main {
   margin-bottom: 3em;
+  flex: 1;
 }
 
 a {
@@ -52,6 +68,7 @@ ul {
 br {
   content: " ";
   display: block;
+  margin-top: 0.5em;
 }
 
 /* navigation */
@@ -70,6 +87,8 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 1em;
+  padding-top: 1em;
 }
 
 header > a {
@@ -79,4 +98,29 @@ header > a {
 
 nav a {
   margin-left: 0.75em;
+}
+
+#logo {
+  width: 0.8em;
+  height: 0.8em;
+}
+
+footer {
+  margin-top: auto;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+
+footer > p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#footer-logo {
+  width: 0.85em;
+  height: 0.85em;
+}
+
+footer em {
+  font-size: 1.1em;
 }
