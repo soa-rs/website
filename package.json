@@ -4,8 +4,7 @@
   "description": "SOARS - Minimalist Website",
   "scripts": {
     "lint": "eslint . --ignore-path ./.gitignore",
-    "build": "gulp",
-    "deploy": "cd cdk && npm run deploy && cd .."
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -18,13 +17,12 @@
   },
   "homepage": "https://github.com/soa-rs/website#readme",
   "devDependencies": {
-    "del": "^6.0.0",
     "eslint": "^8.57.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-config-standard": "^16.0.3",
-    "eslint-plugin-import": "^2.26.0",
+    "eslint-config-airbnb-bundle": "^3.0.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^5.2.0",
+    "eslint-plugin-promise": "^6.6.0",
     "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-htmlmin": "^5.0.1",
